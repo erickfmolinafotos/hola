@@ -1,0 +1,210 @@
+/* --- General --- */
+
+body {
+    margin: 0;
+}
+
+.centre {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #333;
+    text-align: justify;
+    margin: 0.625em 0;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+
+
+/* --- Nav Bar --- */
+nav {
+    line-height: 100%;
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px 15px 0px 15px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* --- Footer --- */
+.bottom {
+    text-align: center;
+}
+
+footer ul {
+    font-size: 40px;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 18px;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+footer ul li {
+    height: 48px;
+    width: 48px;
+}
+
+/* --- Bio --- */
+.photo {
+    display: inline-block;
+    float: right;
+    width: 400px;
+    padding: 0 0 2em 2em;
+}
+
+.biotext:before {
+    content: ' ';
+    display: block;
+    overflow: hidden;
+    clear: left;
+    width: 20em;
+}
+
+.photo img {
+  width:100%;
+}
+
+.about {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/* --- Research --- */
+.research {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.research-header {
+  background: url(images/DR.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px 0 20px;
+  position: relative;
+  min-height: 200px;   
+}
+
+.data-header {
+  background: url(images/pump.JPG) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px 0 20px;
+  position: relative;
+  min-height: 200px;   
+}
+
+.research-title{
+    text-align: center;
+    padding: 150px 0;
+}
+
+.research-title h1{
+    font-size: 50px;
+    color: white;
+    vertical-align: middle;
+}
+
+.paper {
+    padding: 0 0 2em 0;
+}
+
+
+/* --- Teaching --- */
+.teaching {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.subject {
+    padding: 0 0 2em 0;
+}
+
+
+/* --- Size --- */
+@media (min-width: 768px){
+    .research {
+        width: 750px;
+    }
+    .research-header {
+        height: 426px;
+    }    
+}
+
+
+@media (min-width: 992px){
+    .research {
+        width: 970px;
+    }
+    .about{
+        margin: 0px 100px 40px 100px;
+    }
+    .research-header {
+        height: 500px;
+    }
+    .research-title h1{
+        font-size: 80px;
+    }
+    .teaching {
+        margin:0px 100px 0px 100px;
+    }
+}
+
+@media (max-width: 365px) { 
+  .research-header {
+    height: 220px;
+  }
+}
+
+@media (max-width: 325px) { 
+  .research-header {
+    height: 200px;
+  }
+}
